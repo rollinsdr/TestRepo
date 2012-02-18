@@ -14,6 +14,9 @@ public:
 
 private:
 	Ui::TestApp1Class ui;
+
+protected slots:
+	void on_m_btn_Popup_clicked();
 };
 
 #endif // TESTAPP1_H
