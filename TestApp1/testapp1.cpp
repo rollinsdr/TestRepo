@@ -4,6 +4,7 @@
 
 TestApp1::TestApp1(QWidget *parent, Qt::WFlags flags)
 	: QMainWindow(parent, flags)
+	, m_nCounter(0)
 {
 	ui.setupUi(this);
 
@@ -19,7 +20,11 @@ TestApp1::~TestApp1()
 
 void TestApp1::on_m_btn_Popup_clicked()
 {
-	//QMessageBox::critical(this, "Popup box", "heres the popup!");
+	//QMessageBox::information(this, "Popup box", "heres the popup!");
+
+	ui.m_lab_ClickOutput->setText(QString("%1").arg(m_nCounter));
+
+	m_nCounter++;
 }
 
 

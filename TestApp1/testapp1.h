@@ -15,6 +15,8 @@ public:
 private:
 	Ui::TestApp1Class ui;
 
+	int m_nCounter;
+
 protected slots:
 	void on_m_btn_Popup_clicked();
 };

@@ -26,6 +26,19 @@
      <string>Popup Click</string>
     </property>
    </widget>
+   <widget class="QLabel" name="m_lab_ClickOutput" >
+    <property name="geometry" >
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>46</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>TextLabel</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar" >
    <property name="geometry" >
