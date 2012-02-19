@@ -25,6 +25,8 @@ void TestApp1::on_m_btn_Popup_clicked()
 	ui.m_lab_ClickOutput->setText(QString("%1").arg(m_nCounter));
 
 	m_nCounter++;
+
+	// added by user number 2
 }
 
 
