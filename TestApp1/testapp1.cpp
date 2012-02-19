@@ -27,6 +27,7 @@ void TestApp1::on_m_btn_Popup_clicked()
 	m_nCounter++;
 
 
+	// added by user number 2
 	// added some stuff
 	// from user number 1 OG!
 }
